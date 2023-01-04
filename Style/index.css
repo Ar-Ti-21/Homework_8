@@ -209,7 +209,7 @@ header .d-flex {
 
 /*Страница-Область №7 начало*/
 .area-7 {
-    border: 1px solid red; /*для себя перемерить размеры и расстояния*/
+    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
     padding: 69px 0 98px;
     background: #F5F5F5;
 }
