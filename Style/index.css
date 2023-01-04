@@ -1,40 +1,9 @@
 @import 'common.css';
-/*Страница-Область №2 начало*/
-.container {
-    max-width: 940px;
-    margin: 0 auto;
-}
 
-img {
-    width: 100%;
-    height: 100%;
-
-}
-
-.d-flex {
-    display: flex;
-}
-
-.nav-links {
-    text-transform: uppercase;
-    font-size: 12px;
-    line-height: 20px;
-    color: #404040;
-    display: flex;
-}
-
-.nav-links a {
-    padding: 4px 17px;
-}
-
-.logo-img {
-    width: 155px;
-    height: 70px;
-}
-
+/*Страница-Область №1 начало*/
 header {
     padding: 18px 0;
-    background: white;
+    background: #FFFFFF;
 }
 
 header .d-flex {
@@ -42,20 +11,50 @@ header .d-flex {
     align-items: center;
 }
 
-.section-1 {
-    /*background: center / cover url("/images/section1bg.jpg") no-repeat;*/
-    /*padding: 105px 0 101px;*/
-    text-align: center;
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.logo-img {
+    width: 155px;
+    height: 70px;
+}
+
+.nav-links {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #404040;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.nav-links a {
+    padding: 0 17px;
+}
+/*Страница-Область №1 конец*/
+
+/*Страница-Область №2 начало*/
+.area-2 {
     position: relative;
 }
 
-.bg-img {
+.area-2-background-img {
     position: absolute;
     display: block;
     z-index: -1;
+    width: 100%;
+    height: 100%;
 }
 
-.close-icon {
+.area-2-close-icon {
     position: absolute;
     display: block;
     width: 52px;
@@ -65,372 +64,158 @@ header .d-flex {
     bottom: -26px;
 }
 
-.section-1 h1 {
+.area-2 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 44px;
     line-height: 55px;
-    text-transform: uppercase;
     color: #FFFFFF;
+    text-transform: uppercase;
     padding-top: 105px;
 }
 
-.section-1 p {
-    padding-bottom: 100px;
+.area-2 p {
+    font-family: 'Vollkorn', serif;
     font-size: 15px;
     line-height: 20px;
-    color: rgba(255, 255, 255, 0.81);
+    color: #FFFFFFCF;
+    padding-bottom: 100px;
 }
 
-.border {
-    margin: 28px 435px 25px;
-    height: 2px;
-    background: #FFFFFF;
-    width: 80px;
-
-}
 /*Страница-Область №2 конец*/
 
 /*Страница-Область №3 начало*/
 .area-3 {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    width: 1440px;
-    height: 289px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 60px;
     background: #FEFEC9;
+    padding: 60px 0 59px;
 }
 
-.area-3-text-1 {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
+.area-3-description {
+    width: 940px;
+    margin: 0 auto 39px;
     font-family: 'Vollkorn', serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
     line-height: 25px;
     color: #47474F;
-    text-align: center;
-    width: 940px;
-    height: 75px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.area-3-text-2 {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
+.area-3-button {
+    background: #FEFEC9;
+    border-top: 1px solid #47474F;
+    border-bottom: 2px solid #47474F;
+    border-left: 1px solid #47474F;
+    border-right: 1px solid #47474F;
+    width: 159px;
+    height: 53px;
+    margin: 0 auto;
+    padding: 13px 34px 20px 34px;
     font-family: 'Vollkorn', serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     color: #47474F;
-    text-align: center;
-    margin-top: 39px;
-}
-
-.area-3-button-for-text-2 {
-    background: #FEFEC9;
-    padding: 20px 34px 13px 34px;
-    border: 1px solid #47474F;
-    border-bottom: 2px solid #47474F;
 }
 /*Страница-Область №3 конец*/
 
 /*Страница-Область №4 начало*/
 .area-4 {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    width: 1440px;
-    height: 625px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.area-4-title {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    font-family: 'Montserrat', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 36px;
-    color: #47474F;
-    text-align: center;
-    text-transform: uppercase;
-    width: 394px;
-    height: 36px;
-    margin: 79px auto 0;
-}
-
-.area-4-rectangle {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    height: 2px;
-    width: 80px;
-    margin: 28px auto 43px;
-    background: rgba(0, 0, 0, 0.09);
-}
-
-.area-4-container-for-cards {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    width: 980px;
-    height: 363px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 79px 0 74px;
 }
 
 .area-4-cards {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
     width: 300px;
-    height: 363px;
+    margin: 0 10px;
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .area-4-cards-img {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    width: 300px;
-    height: 219px;
-    margin-bottom: 38px;
+    margin: 0 0 38px;
 }
 
-.area-4-text-of-card-1 {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    font-family: 'Montserrat', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: #47474F;
-    text-align: center;
-    text-transform: uppercase;
-    width: 193px;
-    height: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-}
-
-.area-4-text-of-card-2 {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
+.area-4-description {
     font-family: 'Vollkorn', serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 15px;
     line-height: 22px;
-    color: #47474F;
-    text-align: center;
-    width: 297px;
-    height: 66px;
-    margin-left: auto;
-    margin-right: auto;
+    color: #333333;
+    margin: 20px 0 0;
 }
+
 /*Страница-Область №4 конец*/
 
 /*Страница-Область №5 начало*/
 .area-5 {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    width: 1440px;
-    height: 1469px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 79px 0 89px;
     background: #F5F5F5;
-    padding-top: 49px;
-}
-
-.area-5-title {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    font-family: 'Montserrat', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 36px;
-    color: #47474F;
-    text-align: center;
-    text-transform: uppercase;
-    width: 230px;
-    height: 36px;
-    margin: 79px auto 0;
-}
-
-.area-5-rectangle {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    height: 2px;
-    width: 80px;
-    margin: 28px auto 43px;
-    background: rgba(0, 0, 0, 0.09);
 }
 
 .area-5-container-for-cards {
-   /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    width: 980px;
-    height: 384px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+    margin: 0 0 20px;
 }
 
 .area-5-cards {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    width: 300px;
-    height: 384px;
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 10px 0;
     background: #FFFFFF;
-
+    padding: 0 0 21px;
+    display: inline-block;
 }
 
 .area-5-cards-img {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    width: 300px;
-    height: 300px;
-    margin-bottom: 19px;
+    margin: 0 0 19px;
 }
 
-.area-5-text-of-card-1 {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    font-family: 'Montserrat', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: #47474F;
-    text-align: center;
-    text-transform: uppercase;
-    width: 91px;
-    height: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 4px;
-}
-
-.area-5-text-of-card-2 {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
+.area-5-description {
     font-family: 'Vollkorn', serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #47474F;
-    text-align: center;
-    width: 147px;
-    height: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 4px 0 0;
 }
 /*Страница-Область №5 конец*/
 
 /*Страница-Область №6 начало*/
 .area-6 {
-   /* border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    width: 1440px;
-    height: 616px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.area-6-title {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    font-family: 'Montserrat', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 23px;
-    line-height: 36px;
-    color: #47474F;
-    text-align: center;
-    text-transform: uppercase;
-    width: 230px;
-    height: 36px;
-    margin: 79px auto 0;
-}
-
-.area-6-rectangle {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    height: 2px;
-    width: 80px;
-    margin: 28px auto 43px;
-    background: rgba(0, 0, 0, 0.09);
-}
-
-.area-6-container-for-cards {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    width: 980px;
-    height: 335px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+    padding: 79px 0 100px;
 }
 
 .area-6-cards {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    width: 220px;
-    height: 335px;
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 10px;
 }
 
 .area-6-cards-img {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    width: 220px;
-    height: 220px;
-    margin-bottom: 19px;
+    margin: 0 0 19px;
 }
 
-.area-6-text-of-card-1 {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    font-family: 'Montserrat', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: #47474F;
-    text-align: center;
-    text-transform: uppercase;
-    width: 133px;
-    height: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 6px;
-}
-
-.area-6-text-of-card-2 {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
+.area-6-description {
     font-family: 'Vollkorn', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #47474F;
-    text-align: center;
-    width: 69px;
-    height: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 29px;
-}
-
-.area-6-all-icons {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
-    width: 185px;
-    height: 15px;
-    margin-left: 55px;
-    margin-right: auto;
+    margin: 6px 0 29px;
 }
 
 .area-6-social-icons Img {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
     width: 29px;
     height: 14px;
-    margin-left: 2px;
-    margin-right: 2px;
+    background: #F5F5F5;
+    justify-content: center;
+    margin: 0 2px;
+}
+
+
+/*Страница-Область №6 конец*/
+
+/*Страница-Область №7 начало*/
+.area-7 {
+    border: 1px solid red; /*для себя перемерить размеры и расстояния*/
+    padding: 69px 0 98px;
     background: #F5F5F5;
 }
 
-.area-6-social-icons-4 {
-    width: 185px;
-    height: 15px;
-    margin-left: -35px;
-    margin-right: auto;
-}
 
 
+
+
+/*border: 1px solid red; /*для себя перемерить размеры и расстояния*/

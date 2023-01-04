@@ -1,3 +1,41 @@
+* {
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+}
 
+.Rectangle-1 {
+    height: 2px;
+    width: 80px;
+    margin: 28px auto 25px;
+    background: #FFFFFF;
+}
 
+.Rectangle-2 {
+    height: 2px;
+    width: 80px;
+    margin: 28px auto 43px;
+    background: rgba(0, 0, 0, 0.09);
+}
 
+.Titles {
+    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.Subtitles {
+    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    text-transform: uppercase;
+}
