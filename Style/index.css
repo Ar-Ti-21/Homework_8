@@ -39,6 +39,7 @@ header .d-flex {
 .nav-links a {
     padding: 0 17px;
 }
+
 /*Страница-Область №1 конец*/
 
 /*Страница-Область №2 начало*/
@@ -115,6 +116,7 @@ header .d-flex {
     line-height: 20px;
     color: #47474F;
 }
+
 /*Страница-Область №3 конец*/
 
 /*Страница-Область №4 начало*/
@@ -170,6 +172,7 @@ header .d-flex {
     color: #47474F;
     margin: 4px 0 0;
 }
+
 /*Страница-Область №5 конец*/
 
 /*Страница-Область №6 начало*/
@@ -182,7 +185,7 @@ header .d-flex {
     margin: 0 10px;
 }
 
-.area-6-cards-img {
+.change-photos-1 img, .change-photos-2 img, .change-photos-3 img, .change-photos-4 img {
     margin: 0 0 19px;
 }
 
@@ -200,22 +203,70 @@ header .d-flex {
     width: 29px;
     height: 14px;
     background: #F5F5F5;
-    justify-content: center;
     margin: 0 2px;
 }
 
+/*Эффект "hover" с заменой на цветную фото при наведении*/
+.change-photos-1 .change-photo-1 img, .change-photos-2 .change-photo-2 img, .change-photos-3 .change-photo-3 img, .change-photos-4 .change-photo-4 img {
+    object-fit: cover;
+}
+
+.change-photos-1 .change-photo-1:nth-of-type(2), .change-photos-2 .change-photo-2:nth-of-type(2), .change-photos-3 .change-photo-3:nth-of-type(2), .change-photos-4 .change-photo-4:nth-of-type(2) {
+    display: none;
+}
+
+.change-photos-1:hover .change-photo-1:nth-of-type(1), .change-photos-2:hover .change-photo-2:nth-of-type(1), .change-photos-3:hover .change-photo-3:nth-of-type(1), .change-photos-4:hover .change-photo-4:nth-of-type(1) {
+    display: none;
+    transition: all 0.2s ease-out;
+}
+
+.change-photos-1:hover .change-photo-1:nth-of-type(2), .change-photos-2:hover .change-photo-2:nth-of-type(2), .change-photos-3:hover .change-photo-3:nth-of-type(2), .change-photos-4:hover .change-photo-4:nth-of-type(2) {
+    display: block;
+    transition: all 0.2s ease-out;
+}
+
+.change-photos-1:hover, .change-photos-2:hover, .change-photos-3:hover, .change-photos-4:hover {
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+/*Эффект "hover" с заменой на цветную фото при наведении*/
 
 /*Страница-Область №6 конец*/
 
 /*Страница-Область №7 начало*/
-.area-7 {
-    /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/
+.area-7-all {
     padding: 69px 0 98px;
     background: #F5F5F5;
 }
 
+.area-7-Vector-img {
+    padding: 0 0 65px;
+}
 
+.area-7-container-for-cards {
+    display: flex;
+    justify-content: center;
+}
 
+.area-7-text-1 {
+    font-family: 'Vollkorn', serif;
+    font-size: 26px;
+    line-height: 33px;
+    color: #333333;
+    width: 338px;
+}
+
+.area-7-container-for-cards img {
+    margin: 10px 0 24px;
+}
+
+.area-7-text-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ABABAB;
+    text-transform: uppercase;
+}
 
 
 /*border: 1px solid red; /*для себя перемерить размеры и расстояния*/

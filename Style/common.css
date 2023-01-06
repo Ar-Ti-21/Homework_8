@@ -27,6 +27,9 @@
     line-height: 36px;
     color: #333333;
     text-transform: uppercase;
+    /*Оформление Hover, text-shadow, box-shadow*/
+    text-shadow: 0 0 0.5em #79c5bd, 0 0 0.5em #79c5bd, 0 0 0.5em #128d80;
+    /*Оформление Hover, text-shadow, box-shadow*/
 }
 
 .Subtitles {
@@ -39,3 +42,52 @@
     color: #333333;
     text-transform: uppercase;
 }
+
+.Rectangle-3 {
+    height: 215px;
+    width: 2px;
+    margin: 5px 70px 0 52px;
+    background: rgba(0, 0, 0, 0.04);
+}
+
+/*Оформление Hover, text-shadow, box-shadow*/
+.nav-links a:hover {
+    text-shadow: 0 0 0.5em #79c5bd, 0 0 0.5em #79c5bd, 0 0 0.5em #128d80;
+    transition: all 0.2s ease-out;
+}
+
+.area-2 h1  {
+    color: #54a;
+    text-shadow: 0 0 0.5em #79c5bd, 0 0 0.5em #79c5bd, 0 0 0.5em #87F;
+}
+
+.area-3-button:hover {
+    text-shadow: 0 0 0.5em #79c5bd, 0 0 0.5em #79c5bd, 0 0 0.5em #128d80;
+    transition: all 0.2s ease-out;
+}
+
+.area-4-cards-img {
+    box-shadow: -1px -1px 14px 14px rgba(121,197,189,1);
+}
+
+.area-5-cards:hover {
+    box-shadow: -1px -1px 14px 14px rgba(121,197,189,1);
+    transition: all 0.5s ease-out;
+}
+
+.area-6-social-icons img:hover {
+    box-shadow: inset -5px -7px 300px -112px rgba(121,197,189,1);
+    transition: all 0.3s ease-out;
+}
+
+.area-7-text-1 {
+    text-shadow: .1em .1em .2em rgba(0, 0, 0, 0.6);
+}
+
+.area-7-comments:hover {
+    background: rgba(77, 69, 68, 0.2);
+    transition: all 0.3s ease-out;
+}
+/*Оформление Hover, text-shadow, box-shadow*/
+
+
